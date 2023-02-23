@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
+    .right_item h3{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 0px !important;
+    font-family: 'Comfortaa', Arial !important;
+    }
+    .right_item  p{
+    color:#666;
+    font-size: 18px;
+    font-family: 'Comfortaa', Arial !important;
+    margin-bottom: 30px;
+    }
+    .right_item h2{
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Comfortaa', Arial !important;
+    padding-left:20px ;
+    padding-right:20px ;
+    }
+     .right_item p{
+    font-size: 15px;
+    color: #666;
+    padding-left:20px ;
+    padding-right:20px ;
+    }
+  .right_item .btn{
+   margin-left: 25px;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(-179deg,#5690FF 0,#387DFF 97%);
+    }
+    .right_item .btn2{
+        margin-left: 25px;
+         border-radius: 20px;
+         border: 2px solid #387DFF;
+         margin-right: 30px;
+         padding-bottom: 5px;
+         background-color:#fff;
+         }
+         #butt .btn2 .btn-link
+         {
+            color: #387DFF;
+            font-weight: 600;
+         }
+
+    .right_item .btn:hover
+    {
+        box-shadow: 0px 0px 30px #6484bf;
+    }
+    .right_item .btn2:hover
+    {
+        box-shadow: 0px 0px 30px #b6bac1;
+    }
+    .our_event
+    {
+        padding-top: 30px;
+    }
+    .all
+    {
+        border-radius: 3px;
+        box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+        transition: all 200ms ease-out;
+        padding: 60px;
+    }
+    .all:hover
+    {
+        box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+    }
+
+    @media(max-width:991px)
+    {
+        #butt button
+        {
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+    @media(max-width:452px)
+    {
+       .all
+       {
+        padding: 20px;
+       }
+       .all h2
+       {
+        font-size: 20px;
+       }
+
+    }
+ 
+
